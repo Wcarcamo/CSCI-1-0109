@@ -1,0 +1,7 @@
+# FILES WITHOUT EXTENSIONS
+*
+!/**/
+!*.*
+
+# PDF FILES
+*.pdf
