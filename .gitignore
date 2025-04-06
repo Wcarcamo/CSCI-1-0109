@@ -5,3 +5,6 @@
 
 # PDF FILES
 *.pdf
+
+# Settings
+.vscode/*
