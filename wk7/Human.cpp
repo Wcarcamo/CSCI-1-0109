@@ -11,6 +11,14 @@ Human::Human() {
     social_security = 999999999;
     income = 0;
 }
+Human::Human(string first_name, string last_name, string date_of_birth, int age, int social_security, int income){
+    this->name_first = first_name;
+    this->name_last = last_name;
+    this->date_birth = date_of_birth;
+    this->age = age;
+    this->social_security = social_security;
+    this->income = income;
+}
 
 void Human::SetAge(int age) {
     this->age = age;

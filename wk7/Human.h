@@ -22,6 +22,7 @@ class Human {
       }
 
       Human();
+      Human(string first_name, string last_name, string date_of_birth, int age, int social_security, int income);
       void SetAge(int age);
       void SetName(string first, string last);
       void SetFirstName(string name_first);

@@ -6,7 +6,8 @@ using namespace std;
 
 int main() {
    Human student;
-   Human professor;
+   Human professor("Gregory", "Mills", "12/31/1980", 45, 987654321, 80000);
+   Human principal;
    
    student.Eat();
    student.Sleep();
@@ -26,6 +27,7 @@ int main() {
 
    student.Print();
    professor.Print();
+   principal.Print();
 
    return 0;
 }
