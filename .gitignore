@@ -3,8 +3,10 @@
 !/**/
 !*.*
 
-# PDF FILES
+# Misc FILES
 *.pdf
+*.png
+*.out
 
 # Settings
 .vscode/*
